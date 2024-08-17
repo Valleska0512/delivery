@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lakki+Reddy&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: #8D8686;
+}
+header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 150px;
+}
+header svg{
+    grid-column-start: 1;
+    height: 150px;
+    margin-right: 200px;
+    width: 180px;
+}
+header a{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: "Inter", sans-serif;
+}
+.home {
+    grid-column-start: 2;
+}
+.cardapio{
+    grid-column-start: 3;
+}
+.contato{
+    grid-column-start: 4;
+}
+.quem-somos{
+    grid-column-start: 5;
+}
+.imgs-hamburguer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 22%;
+}
+.hamb1{
+    height: 280px;
+    width: 384px;
+}
+.hamb2{
+    height: 280px;
+    width: 384px;
+}
+.hamb3{
+    height: 280px;
+    width: 384px;
+}
+.hamb4{
+    height: 280px;
+    width: 380px;
+}
+.barra-preta{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 90% 10% ;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.barra-preta p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    grid-column-start: 1;
+}
+.logo{
+    margin-left: 40px;
+    width: 110px;
+    grid-column-start: 2;
+}
+.texto-loja{
+    margin-left: 150px;
+    text-align: center;
+    font-family: "Coda", system-ui;
+    border: 5px solid black;
+    margin-top: 150px;
+    width: 80%;
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.texto-loja em{
+    color: yellow;
+    font-family: "Lakki Reddy", serif;
+}
+.final{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+    color: white;
+}
+.insta{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    background-color: black;
+}
+.watts{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: black;
+}
+.face{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    background-color: black;
+}
+.texto{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    background-color: black;
+}
+
+.final svg{
+    margin-left: 8%;
+    width: 80%;
+}
+.final img{
+    margin-left: 45%;
+    margin-top: 20px;
+    width: 90px;
+}

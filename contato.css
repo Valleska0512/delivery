@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+body{
+    background-color: #8D8686;
+}
+
+header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 150px;
+}
+header svg{
+    grid-column-start: 1;
+    height: 150px;
+    margin-right: 200px;
+    width: 180px;
+}
+header a{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    font-family: "Inter", sans-serif;
+}
+.home {
+    grid-column-start: 2;
+}
+.cardapio{
+    grid-column-start: 3;
+}
+.contato{
+    grid-column-start: 4;
+}
+.quem-somos{
+    grid-column-start: 5;
+}
+
+.imagens{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 5fr 1fr 5fr 1fr 5fr 1fr;
+    grid-template-rows: 100%;
+    height: 15vh;
+    margin-top: 50px;
+}
+
+
+.img1{
+    grid-column-start: 2;
+}
+.img2{
+    grid-column-start: 4;
+}
+.img3{
+    grid-column-start: 6;
+}
+.img4{
+    grid-column-start: 8;
+}
+
+
+.img1 > img{
+    height: 300px;
+    width: 300px;
+}
+.img2 > img{
+    height: 300px;
+    width: 300px;
+}
+.img3 > img{
+    height: 300px;
+    width: 300px;
+}
+.img4 > img{
+    height: 300px;
+    width: 300px;
+}
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 200px;
+    border-radius: 30px;
+    background-color: #000000;
+    font-family: "Inter", sans-serif;
+}
+
+
+h3 {
+    color: #f3f3f3;
+}
+.log{
+    margin-top: 10px;
+}
+.caso{
+    margin-bottom: 20px;
+    color: #f3f3f3;
+}
+
+
+input{
+    margin-bottom: 20px;
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    width: 250px;
+}
+
+
+
+p{
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.senhas{
+    margin-bottom: 20px;
+}
+
+button{
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+footer svg{
+    margin-left: 250px;
+    margin-top: 650px;
+    width: 1100px;
+    height: 100px;
+    background-color: black;
+}
